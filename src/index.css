@@ -172,4 +172,9 @@
     background-image: radial-gradient(circle at 25% 25%, hsl(43 74% 66% / 0.1) 0%, transparent 50%),
                       radial-gradient(circle at 75% 75%, hsl(25 50% 45% / 0.1) 0%, transparent 50%);
   }
+
+  /* Gradient Radial Utility */
+  .bg-gradient-radial {
+    background-image: radial-gradient(circle, var(--tw-gradient-stops));
+  }
 }
